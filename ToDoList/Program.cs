@@ -54,7 +54,7 @@ class Program
     static void Main(string[] args)
     {
         ToDoList toDoList = new ToDoList();
-
+        //display the options
         while (true)
         {
             Console.WriteLine("\nMenu:");
