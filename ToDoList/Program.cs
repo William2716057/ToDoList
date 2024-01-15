@@ -18,7 +18,7 @@ class ToDoList
     {
         tasks = new List<Task>();
     }
-
+    //give name and add it to list of tasks
     public void AddTask(string taskName)
     {
         Task newTask = new Task { TaskName = taskName, IsCompleted = false };
