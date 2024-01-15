@@ -1,7 +1,7 @@
 ﻿using System.Runtime.Intrinsics.X86;
 using System;
 using System.Collections.Generic;
-
+//task class to represent name and completed properties
 class Task
 {
     public string TaskName { get; set; }
