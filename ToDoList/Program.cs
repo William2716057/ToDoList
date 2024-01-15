@@ -24,7 +24,7 @@ class ToDoList
         Task newTask = new Task { TaskName = taskName, IsCompleted = false };
         tasks.Add(newTask);
     }
-
+    //displays by iterating through each task and displaying it's current state
     public void DisplayTasks()
     {
         Console.WriteLine("To-Do List:");
