@@ -34,7 +34,7 @@ class ToDoList
             Console.WriteLine($"{status} {task.TaskName}");
         }
     }
-
+    //function to allow user to mark task as completed by choosing it's index
     public void MarkTaskAsCompleted(int taskIndex)
     {
         if (taskIndex >= 0 && taskIndex < tasks.Count)
