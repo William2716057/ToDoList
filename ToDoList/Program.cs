@@ -65,7 +65,7 @@ class Program
 
             Console.Write("Enter your choice (1-4): ");
             int choice = int.Parse(Console.ReadLine());
-
+            //switch statements to take action based on users input
             switch (choice)
             {
                 case 1:
